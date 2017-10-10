@@ -1,0 +1,11 @@
+.section1 {
+    display: flex;
+    background-color: rgba(0, 0, 101, 0.31);
+
+}
+
+.primary {
+    max-width: 30%;
+    flex-grow: 230px;
+}
+
