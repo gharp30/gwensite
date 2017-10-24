@@ -3,58 +3,26 @@
 
 .link-container {
     text-align: center; 
-    
-    
-}
+ }
 
 .link-container, ul {
     list-style-type: none;
     display: inline;
-    
-    
-    
-}
+} 
 
 
-
-
-/*.primary {
-    width: 33%;
-    padding-left: 10px;
-    position: relative;
-    float: left;
-}
-
-.secondary {
-    width: 25%;
-    float: none;
-    display: inline-block; 
-    position: relative;
-
-}
-
-.tertiary {
-
-    position: relative;
-    width: 20;
-    float: right;
-}
-*/
 .link-container, li {
-    display: inline;
-    
+    display: inline;    
 }
 
-.link-container, a:link {
+.link-container a:link {
     font-size: 1em;
     padding: 15px;
     padding-left: 5px;
     text-decoration: none;
     color: white;
-    text-shadow: 1px 1px black;
-        
-    
-}
+    text-shadow: 1px 1px black;   
+    }
 
 
 
@@ -92,21 +60,6 @@
 
 }
 
-/*.welcome-text {
-    font-size: 2em;
-    width: 80%;
-    z-index: 100;
-    text-align: center;
-    color: #DEDE8A;
-    text-shadow: 3px 3px #474D00;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'kingthings_foundationregular';
-}
-*/
-
 .welcome-text {
     position: absolute;
     top: 40%;
@@ -127,34 +80,9 @@
 }
 
 
-
-/*
-.break1{
-    background: url("imgs/scroll1.jpg") no-repeat top center fixed;
-    background-size: cover;
-    height: 100px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    color: white;
-    text-align: center;
-    font-size: 50px;
- } */
-
-
-
-
-
 /* ================================= 
   Media Queries
 ==================================== */
-
-
-    
-
-
-
-
 
 .ph2 {
     text-align: center;
@@ -191,7 +119,7 @@
         padding-left: 100px;
         padding-right: 100px;
     }
-    
+
     .primary, .secodary, .third {
     
         border: 5px outset grey;
@@ -231,3 +159,6 @@
     height: 100%;
     width: 100%;
 }
+
+.placeholder3 a:active {color: black;}
+
